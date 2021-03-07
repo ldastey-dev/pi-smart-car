@@ -12,8 +12,8 @@ Edit **$INSTALL_DIR**/Service/smart-car-server and change $INSTALL_DIR to be the
 
 Now run the following commands:
 
-    sudo ln -s *$INSTALL_DIR*/Service/smart-car-server.service /lib/systemd/system/smart-car-server.service  
-    sudo ln -s *$INSTALL_DIR*/Service/smart-car-server /etc/init.d/smart-car-server
+    sudo ln -s $INSTALL_DIR/Service/smart-car-server.service /lib/systemd/system/smart-car-server.service  
+    sudo ln -s $INSTALL_DIR/Service/smart-car-server /etc/init.d/smart-car-server
     sudo systemctl daemon-reload
     sudo systemctl enable smart-car-server
     sudo reboot
