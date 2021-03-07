@@ -2,6 +2,8 @@
 
 To enable the Freenove Smart Car Server to run at startup follow the steps for your distro.
 
+Credit of Leigh Dastey (ldastey@outlook.com).
+
 ## SystemD Configuration
 
 1. sudo ln -s *$INSTALL_DIR*/Service/smart-car-server.service /lib/systemd/system/smart-car-server.service  
